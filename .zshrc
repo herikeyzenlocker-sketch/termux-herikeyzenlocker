@@ -9,3 +9,4 @@ clear() {
     echo "ketika perintah atau command" | lolcat
     echo "============================================================" | lolcat
 }
+PROMPT="%F{green}%n%f@%F{blue}%m%f:%F{cyan}%~%f➜ "
