@@ -28,7 +28,8 @@ if [ -f "$ZSH/oh-my-zsh.sh" ]; then
     ZSH_THEME="robbyrussell"
     plugins=(git zsh-autosuggestions)
     source $ZSH/oh-my-zsh.sh
+PROMPT="%F{green}%n%f@%F{blue}%m%f:%F{cyan}%~%f$ "
 fi
 
 # Prompt kustom (setelah Oh My Zsh agar tidak tertimpa)
-PROMPT="%F{green}%n%f@%F{blue}%m%f:%F{cyan}%~%f$ "
+PROMPT="%F{green}%n%f@%F{blue}%m%f:%F{cyan}%~%f➜ "
