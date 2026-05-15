@@ -28,6 +28,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 chsh -s zsh
 
 # Terapkan konfigurasi
-source ~/.zshrc
+exec zsh
 
 echo "✅ Pemulihan selesai! Termux-mu sudah kembali seperti semula."
